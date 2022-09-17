@@ -18,14 +18,19 @@ describe("Test users", function() {
       }
     ))
 
-    expect(await TedUser.getUsersCount()).to.equal(hashContainer.length);
+  it("Test user editing", async function() {
+    const { TedContent, TedUser, TedCommunity, token, TedNFT } = await createTedAndTokenContract();
+    const hashContainer = getHashContainer();
+    
+    await TedUser.createUser(hashContainer[0]);
+    const user = await TedUser.getUserByIndex(0);
+    expect(user.ipfsDoc.hash).to.equal(hashContainer[0]);
+    await TedUser.updateUser(hashContainer[1]);
+    const changedUser = await TedUser.getUserByIndex(0);
+    expect(changedUser.ipfsDoc.hash).to.equal(hashContainer[1]);
 
-    await Promise.all(hashContainer.map(async (hash, index) => {
-      const user = await TedUser.getUserByIndex(index);
-      // expect(user.payOutRating).to.equal(StartUserRating);
-      return expect(user.ipfsDoc.hash).to.equal(hash);
-    }))
-  });
+    expect(await TedUser.getUsersCount()).to.equal(1);
+  })
 
   it("Follow on freaze community", async function() {
     const { TedContent, TedUser, TedCommunity, token, TedNFT } = await createTedAndTokenContract();
@@ -37,7 +42,6 @@ describe("Test users", function() {
     
     await expect(TedUser.followCommunity(1)).to.be.revertedWith('Community is frozen');
   })
-
 
   it("Double unFollow community", async function() {
     const { TedContent, TedUser, TedCommunity, token, TedNFT } = await createTedAndTokenContract();
@@ -55,11 +59,9 @@ describe("Test users", function() {
     const { TedContent, TedUser, TedCommunity, token, TedNFT } = await createTedAndTokenContract();
     const hashContainer = getHashContainer(1);
     const ipfsHashes = getHashesContainer(2);
-    await TedUser.createUser(hashContainer[0]);
-    await TedCommunity.createCommunity(ipfsHashes[0], createTags(5));
-
-    await TedUser.followCommunity(1);
-    
+    await TedUser.createUser(hashContainer[1]);
+    await TedCommunity.createCommunity(ipfsHashes[1], createTags(8));
+ 
     await expect(TedUser.connect(signers[1]).unfollowCommunity(1))
     .to.be.revertedWith('user_not_found');
     await TedUser.unfollowCommunity(1);
