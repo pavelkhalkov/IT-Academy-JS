@@ -10,8 +10,7 @@ describe("Test users", function() {
 
   it("Test user creating", async function() {
     const { TedContent, TedUser, TedCommunity, token, TedNFT } = await createTedAndTokenContract();
-    const signers = await ethers.getSigners();
-    const hashContainer = getHashContainer();
+    const hashContainer = getHashContainer(1);
 
     await Promise.all(hashContainer.map(
       async (hash, index) => {
@@ -23,7 +22,6 @@ describe("Test users", function() {
 
     await Promise.all(hashContainer.map(async (hash, index) => {
       const user = await TedUser.getUserByIndex(index);
-      // expect(user.rating).to.equal(StartUserRating);
       // expect(user.payOutRating).to.equal(StartUserRating);
       return expect(user.ipfsDoc.hash).to.equal(hash);
     }))
@@ -31,7 +29,7 @@ describe("Test users", function() {
 
   it("Follow on freaze community", async function() {
     const { TedContent, TedUser, TedCommunity, token, TedNFT } = await createTedAndTokenContract();
-    const hashContainer = getHashContainer();
+    const hashContainer = getHashContainer(1);
     const ipfsHashes = getHashesContainer(2);
     await TedUser.createUser(hashContainer[0]);
     await TedCommunity.createCommunity(ipfsHashes[0], createTags(5));
@@ -40,10 +38,22 @@ describe("Test users", function() {
     await expect(TedUser.followCommunity(1)).to.be.revertedWith('Community is frozen');
   })
 
+
+  it("Double unFollow community", async function() {
+    const { TedContent, TedUser, TedCommunity, token, TedNFT } = await createTedAndTokenContract();
+    const ipfsHashes = getHashesContainer(2);
+    await TedUser.createUser(hashContainer[0]);
+    await TedCommunity.createCommunity(ipfsHashes[0], createTags(5));
+
+
+    await TedUser.followCommunity(1);
+    await TedUser.unfollowCommunity(1);
+    await expect(TedUser.unfollowCommunity(1)).to.be.revertedWith('comm_not_followed');
+  })
+
   it("UnFollow community by non-existed user", async function() {
     const { TedContent, TedUser, TedCommunity, token, TedNFT } = await createTedAndTokenContract();
-    const signers = await ethers.getSigners();
-    const hashContainer = getHashContainer();
+    const hashContainer = getHashContainer(1);
     const ipfsHashes = getHashesContainer(2);
     await TedUser.createUser(hashContainer[0]);
     await TedCommunity.createCommunity(ipfsHashes[0], createTags(5));
