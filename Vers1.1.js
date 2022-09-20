@@ -67,3 +67,4 @@ describe("Test users", function() {
     await TedUser.unfollowCommunity(1);
   })
 });
+
