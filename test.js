@@ -1,72 +1,113 @@
-let action = require("./action")
+// 1. Выполнить сложение различных типов(string+boolean, string+number, number+boolean)
 
-let string = "qwe"
-let number = 123
-let numberString = "123"
-let boolean = true
+additionStringAndBoolean('100', true);
+additionStringAndNumber('5', 5);
+additionNumberAndBoolean(2, true);
 
-action.Summ(string,boolean)
-action.Summ(string,number)
-action.Summ(number,boolean)
-action.Summ(number,numberString)
-action.Multiplication(string,boolean)
-action.Multiplication(string,number)
-action.Multiplication(number,boolean)
-action.Multiplication(number,numberString)
-action.Division(string,boolean)
-action.Division(string,number)
-action.Division(number,boolean)
-action.Division(number,numberString)
-action.Explicit(String(null))
-action.Explicit(Number(null))
-action.Explicit(Boolean(null))
+let additionStringAndBoolean = function (string, boolean) {
+    let result;
+    result = string + boolean;
+    console.log(
+        `При сложении '${string}' и ${boolean} в Javascript получаем '${result}'`
+    );
+};
 
+let additionStringAndNumber = function (string, number) {
+    let result;
+    result = string + number;
+    console.log(
+        `При сложении '${string}' и ${number} в Javascript получаем '${result}'`
+    );
+};
 
-//1. Выполнить сложение различных типов(string+boolean, string+number, number+boolean)
+let additionNumberAndBoolean = function (number, boolean) {
+    let result;
+    result = number + boolean;
+    console.log(
+        `При сложении ${number} и ${boolean} в Javascript получаем ${result}`
+    );
+};
 
-console.log('23'+ true)              //23true
-console.log("currentYear"+ 2022)     //currentYear2022
-console.log(25 + false)              //25
+// 2. Выполнить умножение различных типов(string * boolean, string * number, number * boolean)
 
-//2. Выполнить умножение различных типов(string * boolean, string * number, number * boolean)
+multiplicationStringAndBoolean('6', false);
+multiplicationStringAndNumber('3', 5);
+multiplicationNumberAndBoolean(2, true);
 
-console.log('currentMonth:' * true)     //NaN
-console.log("currentYear:" * 2022)      //NaN
-console.log(25 * false)                 //0
+let multiplicationStringAndBoolean = function (string, boolean) {
+    let result;
+    result = string * boolean;
+    console.log(
+        `При умножении "${string}" на ${boolean} в Javascript получаем ${result}`
+    );
+};
+
+let multiplicationStringAndNumber = function (string, number) {
+    let result;
+    result = string * number;
+    console.log(
+        `При умножении "${string}" на ${number} в Javascript получаем ${result}`
+    );
+};
+
+let multiplicationNumberAndBoolean = function (number, boolean) {
+    let result;
+    result = number * boolean;
+    console.log(
+        `При умножении ${number} на ${boolean} в Javascript получаем ${result}`
+    );
+};
 
 //3. Выполнить деление различных типов(string/boolean, string/number, number/Boolean)
 
-console.log('currentMonth:' / true)       //NaN
-console.log("currentYear:"/ 2022)        //NaN
-console.log(25 / false)                   //Infinity
+divisionStringAndBoolean('9', true);
+divisionStringAndNumber('10', 2);
+divisionNumberAndBoolean(9, true);
+
+let divisionStringAndBoolean = function (string, boolean) {
+    let result;
+    result = string / boolean;
+    console.log(
+        `При делении "${string}" на ${boolean} в Javascript получаем ${result}`
+    );
+};
+
+let divisionStringAndNumber = function (string, number) {
+    let result;
+    result = string / number;
+    console.log(
+        `При делении "${string}" на ${number} в Javascript получаем ${result}`
+    );
+};
+
+let divisionNumberAndBoolean = function (number, boolean) {
+    let result;
+    result = number / boolean;
+    console.log(
+        `При делении ${number} на ${boolean} в Javascript получаем ${result}`
+    );
+};
 
 //4. Выполнить явное преобразование(number, string, boolean)
 
-//4.1. Преобразование в number
+transformationNumber('1');
+transformationString(2);
+transformationBoolean(0);
 
-let value = Number('324')           //324
-let value = Number('15'+'10')       //1510
-let value = parseInt("55$")         //55
-let value = 30 - '5'                //25
-let value = true + 10               //11
+let transformationNumber = function (argument) {
+    let result;
+    result = Number(argument);
+    console.log(`При преобразовании "${argument}" в Number получили ${result}`);
+};
 
-//4.2.Преобразование в string
+let transformationString = function (argument) {
+    let result;
+    result = String(argument);
+    console.log(`При преобразовании ${argument} в String получили "${result}"`);
+};
 
-let value = String(10)           //10  
-let value = String(10+40)        //50
-let value = (40).toString()      //40
-let value = 30 + 'str'           //30str
-          
-//4.3 Преобразование в boolean
-
-let value = Boolean('')           //false
-let value = Boolean(0)            //false
-let value = Boolean(null)         //false 
-let value = Boolean(undefined)    //false
-let value = Boolean(NaN)          //false
-
-let value = Boolean(' ')          //true
-let value = Boolean('hello')      //true 
-let value = Boolean(342)          //true
-let value = Boolean({})           //true
-let value = Boolean([])           //true
+let transformationBoolean = function (argument) {
+    let result;
+    result = Boolean(argument);
+    console.log(`При преобразовании ${argument} в Boolean получили ${result}`);
+};
