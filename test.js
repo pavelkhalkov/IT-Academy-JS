@@ -1,9 +1,5 @@
 // 1. Выполнить сложение различных типов(string+boolean, string+number, number+boolean)
 
-additionStringAndBoolean('100', true);
-additionStringAndNumber('5', 5);
-additionNumberAndBoolean(2, true);
-
 let additionStringAndBoolean = function (string, boolean) {
     let result;
     result = string + boolean;
@@ -28,11 +24,11 @@ let additionNumberAndBoolean = function (number, boolean) {
     );
 };
 
-// 2. Выполнить умножение различных типов(string * boolean, string * number, number * boolean)
+additionStringAndBoolean('100', true);
+additionStringAndNumber('5', 5);
+additionNumberAndBoolean(2, true);
 
-multiplicationStringAndBoolean('6', false);
-multiplicationStringAndNumber('3', 5);
-multiplicationNumberAndBoolean(2, true);
+2. Выполнить умножение различных типов(string * boolean, string * number, number * boolean)
 
 let multiplicationStringAndBoolean = function (string, boolean) {
     let result;
@@ -58,11 +54,11 @@ let multiplicationNumberAndBoolean = function (number, boolean) {
     );
 };
 
-//3. Выполнить деление различных типов(string/boolean, string/number, number/Boolean)
+multiplicationStringAndBoolean('6', false);
+multiplicationStringAndNumber('3', 5);
+multiplicationNumberAndBoolean(2, true);
 
-divisionStringAndBoolean('9', true);
-divisionStringAndNumber('10', 2);
-divisionNumberAndBoolean(9, true);
+//3. Выполнить деление различных типов(string/boolean, string/number, number/Boolean)
 
 let divisionStringAndBoolean = function (string, boolean) {
     let result;
@@ -88,11 +84,11 @@ let divisionNumberAndBoolean = function (number, boolean) {
     );
 };
 
-//4. Выполнить явное преобразование(number, string, boolean)
+divisionStringAndBoolean('9', true);
+divisionStringAndNumber('10', 2);
+divisionNumberAndBoolean(9, true);
 
-transformationNumber('1');
-transformationString(2);
-transformationBoolean(0);
+//4. Выполнить явное преобразование(number, string, boolean)
 
 let transformationNumber = function (argument) {
     let result;
@@ -111,3 +107,7 @@ let transformationBoolean = function (argument) {
     result = Boolean(argument);
     console.log(`При преобразовании ${argument} в Boolean получили ${result}`);
 };
+
+transformationNumber('1');
+transformationString(2);
+transformationBoolean(0);
