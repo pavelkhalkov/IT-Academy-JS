@@ -2,7 +2,7 @@
   "name": "it-academy-js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,9 +17,8 @@
   },
   "homepage": "https://github.com/pavelkhalkov/IT-Academy-JS#readme",
   "dependencies": {
-    "axios": "^0.27.2",
     "fs-extra": "^10.1.0",
-    "yarg": "^1.0.8"
+    "yang": "^1.0.1"
   },
   "devDependencies": {
     "eslint": "^8.24.0"
