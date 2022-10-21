@@ -1,11 +1,9 @@
 //1. Поменять массив в обратном порядке - [1,2,3,4,5,6] [6,5,4,3,2,1]
 
-let arr = [1, 2, 3, 4, 5, 6],
-    inverse;
+let arr = [1,2,3,4,5,6];
 
-inverse = arr.reduce(function (carrier, element) {
-    carrier.unshift(element);
-    return carrier;
-}, []);
+function reverseArr(arr) {
+    return arr.reverse();
+  }
 
-console.log(inverse);
+console.log(reverseArr([1,2,3,4,5,6]));
