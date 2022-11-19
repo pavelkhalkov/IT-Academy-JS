@@ -108,8 +108,7 @@ describe.only("lesson 17 homework", function () {
   const dropdownsElements = await driver.findElement(By.xpath('//li[@class=\'ijMPi\']//div[@class=\'I35ICb\']//a[text()="Mobile Emulation"]'));
   await driver.wait(until.elementIsVisible(dropdownsElements));
   await dropdownsElements.click();
-
-  await driver.sleep(1000);
+  await driver.wait(until.urlContains('/mobile-emulation'), 10000);
 
 });
 });
