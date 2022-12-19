@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670015740412' stop='1670015741677'>
+    <name>WebdriverIO website testing: Check navigation menu</name>
+    <title>WebdriverIO website testing: Check navigation menu</title>
+    <test-cases>
+        <test-case start='1670015740412' status='passed' stop='1670015740413'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670015740413' status='passed' stop='1670015741672'>
+            <name>Given I navigate "https://webdriver.io/" home page</name>
+            <title>Given I navigate "https://webdriver.io/" home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps>
+                <step start='1670015740415' status='passed' stop='1670015741670'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b6be8748-9501-4d0c-a8a2-4d82374dd573-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670015741672' status='failed' stop='1670015741673'>
+            <name>Then I expect element 3 "//a[@class='navbar__item navbar__link']" should be equal blog</name>
+            <title>Then I expect element 3 "//a[@class='navbar__item navbar__link']" should be equal blog</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I expect element 3 "//a[@class='navbar__item navbar__link']" should be equal blog" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I expect element 3 "//a[@class='navbar__item navbar__link']" should be equal blog" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Пользователь\lesson22\features\login.feature):1:1
+                	at Scenario(Check navigation menu):9:3
+                	at Step(I expect element &lt;number> "//a[@class='navbar__item navbar__link']" should be equal &lt;linkText>):11:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670015741673' status='passed' stop='1670015741676'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

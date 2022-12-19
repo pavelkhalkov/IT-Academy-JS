@@ -1,0 +1,125 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670104177415' stop='1670104178657'>
+    <name>WebdriverIO website testing: Blog page has the title "WebdriverIO v8 Released"</name>
+    <title>WebdriverIO website testing: Blog page has the title "WebdriverIO v8 Released"</title>
+    <test-cases>
+        <test-case start='1670104177416' status='passed' stop='1670104177416'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670104177416' status='passed' stop='1670104178432'>
+            <name>Given I navigate "https://webdriver.io/" home page</name>
+            <title>Given I navigate "https://webdriver.io/" home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps>
+                <step start='1670104177417' status='passed' stop='1670104178430'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5347bd40-38c7-4b57-a9f8-2bef369e5f8e-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670104178432' status='passed' stop='1670104178639'>
+            <name>When I go "//*[@class='navbar navbar--fixed-top']//*[contains(text(), 'Blog')]" blog page</name>
+            <title>When I go "//*[@class='navbar navbar--fixed-top']//*[contains(text(), 'Blog')]" blog page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps>
+                <step start='1670104178433' status='passed' stop='1670104178487'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7c30bc85-46fd-44a1-b9ca-3c15d632f721-attachment.json' type='application/json' size='104'/>
+                        <attachment title='Response' source='2411a758-28b3-4c35-a15f-cabe2f01829a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670104178490' status='passed' stop='1670104178638'>
+                    <name>POST /session/:sessionId/element/9d6fc921-2e9e-46e7-851a-a17fc10227fe/click</name>
+                    <title>POST /session/:sessionId/element/9d6fc921-2e9e-46e7-851a-a17fc10227fe/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670104178639' status='broken' stop='1670104178656'>
+            <name>And I should "//h2/a[contains(text(),'WebdriverIO v8 Released')]" blog page title "WebdriverIO v8 Released"</name>
+            <title>And I should "//h2/a[contains(text(),'WebdriverIO v8 Released')]" blog page title "WebdriverIO v8 Released"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps>
+                <step start='1670104178642' status='broken' stop='1670104178655'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3a09117a-311a-45fb-bddc-5066e2af9e1c-attachment.json' type='application/json' size='87'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'equal')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'equal')
+                    at World.&lt;anonymous> (C:\Users\Пользователь\lesson22\step-definitions\steps.js:44:43)
+                    at World.executeAsync (C:\Users\Пользователь\lesson22\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at World.testFrameworkFnWrapper (C:\Users\Пользователь\lesson22\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async wrapPromiseWithTimeout (C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\time.js:67:12)
+                    at async Object.run (C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\user_code_runner.js:64:22)
+                    at async Object.run (C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:52:26)
+                    at async TestCaseRunner.invokeStep (C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:93:16)
+                    at async TestCaseRunner.runStep (C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:237:26)
+                    at async C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:163:48</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670104178656' status='passed' stop='1670104178657'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

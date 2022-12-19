@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@class='navbar navbar--fixed-top']//*[contains(text(), 'Blog')]"
+}

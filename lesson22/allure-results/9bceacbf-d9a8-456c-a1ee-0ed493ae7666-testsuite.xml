@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669929664147' stop='1669929667648'>
+    <name>WebdriverIO web testing: Checking the text on the Main page</name>
+    <title>WebdriverIO web testing: Checking the text on the Main page</title>
+    <test-cases>
+        <test-case start='1669929664148' status='passed' stop='1669929664151'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669929664151' status='passed' stop='1669929667465'>
+            <name>Given I navigate to the home page</name>
+            <title>Given I navigate to the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps>
+                <step start='1669929664155' status='passed' stop='1669929667460'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='1dfa0166-2807-46be-abfd-dcca93180a0f-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669929667466' status='passed' stop='1669929667639'>
+            <name>When I should see a page title</name>
+            <title>When I should see a page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps>
+                <step start='1669929667474' status='passed' stop='1669929667553'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='545cbc93-6b58-4037-b78c-1985eb204aaa-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='345b1c5a-eadf-4b91-9079-a965d7a84a48-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669929667568' status='passed' stop='1669929667636'>
+                    <name>GET /session/:sessionId/element/5059f2f6-13fd-4af8-9f56-ae3d1cb51477/text</name>
+                    <title>GET /session/:sessionId/element/5059f2f6-13fd-4af8-9f56-ae3d1cb51477/text</title>
+                    <attachments>
+                        <attachment title='Response' source='b0c961f3-0313-4143-93ba-ebc11e1c4da1-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669929667639' status='broken' stop='1669929667642'>
+            <name>And Undefined Step</name>
+            <title>And Undefined Step</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Пользователь\lesson22\features\login.feature):1:1
+                	at Scenario(Checking the text on the Main page):3:3
+                	at Step():7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669929667643' status='passed' stop='1669929667647'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

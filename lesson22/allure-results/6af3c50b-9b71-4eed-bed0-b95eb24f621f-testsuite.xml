@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670149554289' stop='1670149555431'>
+    <name>WebdriverIO website testing: Blog page has the title</name>
+    <title>WebdriverIO website testing: Blog page has the title</title>
+    <test-cases>
+        <test-case start='1670149554289' status='passed' stop='1670149554290'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670149554291' status='passed' stop='1670149555199'>
+            <name>Given I navigate "https://webdriver.io/" home page</name>
+            <title>Given I navigate "https://webdriver.io/" home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps>
+                <step start='1670149554292' status='passed' stop='1670149555198'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c5bea165-3a97-46fa-900b-d8d1b0da8fc7-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670149555199' status='passed' stop='1670149555424'>
+            <name>When I go "//*[@class='navbar navbar--fixed-top']//*[contains(text(), 'Blog')]" blog page</name>
+            <title>When I go "//*[@class='navbar navbar--fixed-top']//*[contains(text(), 'Blog')]" blog page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps>
+                <step start='1670149555201' status='passed' stop='1670149555254'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='813de210-a597-40c9-84b0-ad6f6c45bb97-attachment.json' type='application/json' size='104'/>
+                        <attachment title='Response' source='790d9a47-9a0c-402c-9339-c3435ab8ffa7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670149555258' status='passed' stop='1670149555423'>
+                    <name>POST /session/:sessionId/element/73adb72a-d098-4bba-85ac-f8b5e55c52be/click</name>
+                    <title>POST /session/:sessionId/element/73adb72a-d098-4bba-85ac-f8b5e55c52be/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670149555424' status='broken' stop='1670149555428'>
+            <name>And I should "//h2/a[contains(text(),'IO v8')]" blog page title "WebdriverIO v8 Released"</name>
+            <title>And I should "//h2/a[contains(text(),'IO v8')]" blog page title "WebdriverIO v8 Released"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should "//h2/a[contains(text(),'IO v8')]" blog page title "WebdriverIO v8 Released"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should "//h2/a[contains(text(),'IO v8')]" blog page title "WebdriverIO v8 Released"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Пользователь\lesson22\features\login.feature):1:1
+                	at Scenario(Blog page has the title):30:4
+                	at Step(I should "//h2/a[contains(text(),'IO v8')]" blog page title "WebdriverIO v8 Released"):32:7
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670149555428' status='pending' stop='1670149555429'>
+            <name>And Every Post ".anchor.anchorWithStickyNavbar_LWe7" Title</name>
+            <title>And Every Post ".anchor.anchorWithStickyNavbar_LWe7" Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670149555429' status='passed' stop='1670149555430'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

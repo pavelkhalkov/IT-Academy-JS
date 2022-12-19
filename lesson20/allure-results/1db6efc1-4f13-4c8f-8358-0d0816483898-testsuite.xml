@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669491774226' stop='1669491778461'>
+    <name>WebdriverIO  tests</name>
+    <title>WebdriverIO  tests</title>
+    <test-cases>
+        <test-case start='1669491774226' status='broken' stop='1669491777385'>
+            <name>Check Text 'WebdriverIO ' in MainTitle</name>
+            <title>Check Text 'WebdriverIO ' in MainTitle</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.108'/>
+            </parameters>
+            <steps>
+                <step start='1669491774229' status='passed' stop='1669491777174'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='eb52793f-f855-4413-8c20-1e8666f83f9e-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669491777174' status='passed' stop='1669491777187'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='a969973e-1d7a-4dc5-8a3d-fef91bcf4bf5-attachment.json' type='application/json' size='95'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669491777191' status='passed' stop='1669491777383'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7d3beff0-4342-483e-b19e-b9b7dc4debb2-attachment.png' type='image/png' size='80055'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'contain')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'contain')
+                    at Context.&lt;anonymous> (C:\Users\Пользователь\lesson20\test\test.js:9:50)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669491777386' status='broken' stop='1669491778460'>
+            <name>Check subTitle on HomePage</name>
+            <title>Check subTitle on HomePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.108'/>
+            </parameters>
+            <steps>
+                <step start='1669491777388' status='passed' stop='1669491778233'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e5a90434-00f3-4e74-89b5-31e58361df22-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669491778236' status='passed' stop='1669491778255'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4e76e017-021f-4dce-99b4-88d0899b0271-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='1ee350c2-6c91-4d24-a6e2-84e22d46fe8a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669491778263' status='passed' stop='1669491778283'>
+                    <name>GET /session/:sessionId/element/b56853c5-07cb-4304-8a33-715a81aacc37/text</name>
+                    <title>GET /session/:sessionId/element/b56853c5-07cb-4304-8a33-715a81aacc37/text</title>
+                    <attachments>
+                        <attachment title='Response' source='4a089bcd-3477-4780-8bf3-f4f9fbd59fc1-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669491778284' status='passed' stop='1669491778459'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4468d17e-1864-45f1-a425-7f543bf09a0f-attachment.png' type='image/png' size='79370'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'contain')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'contain')
+                    at Context.&lt;anonymous> (C:\Users\Пользователь\lesson20\test\test.js:16:64)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

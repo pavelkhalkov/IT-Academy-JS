@@ -1,0 +1,119 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669838302177' stop='1669838309920'>
+    <name>WebdriverIO web testing: As a user, I can log into the secure area</name>
+    <title>WebdriverIO web testing: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1669838302178' status='passed' stop='1669838302180'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669838302181' status='passed' stop='1669838309914'>
+            <name>Given I navigate to the main page</name>
+            <title>Given I navigate to the main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps>
+                <step start='1669838302184' status='passed' stop='1669838309841'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0a9707b6-3bed-4e40-97fa-61eaf42b635a-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669838309843' status='passed' stop='1669838309876'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='31a71400-c502-47df-a9d3-1e3dc63a1e97-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='0b1f4494-7113-4a47-abcd-7658a1ae8e12-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669838309887' status='passed' stop='1669838309912'>
+                    <name>GET /session/:sessionId/element/d8d04274-0564-457c-b870-46edfdaeaa4a/text</name>
+                    <title>GET /session/:sessionId/element/d8d04274-0564-457c-b870-46edfdaeaa4a/text</title>
+                    <attachments>
+                        <attachment title='Response' source='28e851b6-0015-425d-bf7a-4ff9eff8cd42-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669838309915' status='broken' stop='1669838309916'>
+            <name>When I click on Watch Talks button</name>
+            <title>When I click on Watch Talks button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on Watch Talks button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on Watch Talks button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Пользователь\lesson22\features\login.feature):1:1
+                	at Scenario(As a user, I can log into the secure area):3:3
+                	at Step(I click on Watch Talks button):6:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669838309916' status='broken' stop='1669838309918'>
+            <name>And I check subTitle on CommunityPage</name>
+            <title>And I check subTitle on CommunityPage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I check subTitle on CommunityPage" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I check subTitle on CommunityPage" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Пользователь\lesson22\features\login.feature):1:1
+                	at Scenario(As a user, I can log into the secure area):3:3
+                	at Step(I check subTitle on CommunityPage):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669838309918' status='passed' stop='1669838309919'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

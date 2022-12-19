@@ -1,0 +1,166 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670098891867' stop='1670098893483'>
+    <name>WebdriverIO website testing: Search component test</name>
+    <title>WebdriverIO website testing: Search component test</title>
+    <test-cases>
+        <test-case start='1670098891867' status='passed' stop='1670098891868'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670098891868' status='passed' stop='1670098892800'>
+            <name>Given I navigate "https://webdriver.io/" home page</name>
+            <title>Given I navigate "https://webdriver.io/" home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps>
+                <step start='1670098891870' status='passed' stop='1670098892799'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3bcb01d5-91be-47cc-b2e7-01f27d753c78-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670098892800' status='passed' stop='1670098893061'>
+            <name>When I click ".DocSearch-Button-Placeholder" search button</name>
+            <title>When I click ".DocSearch-Button-Placeholder" search button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps>
+                <step start='1670098892801' status='passed' stop='1670098892900'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b7a981f0-431f-4515-8343-8e5f675cf85e-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='f118ebef-c284-47b3-9813-0d981216149d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670098892906' status='passed' stop='1670098893060'>
+                    <name>POST /session/:sessionId/element/971a78e9-658e-4ffc-9423-f49dbb3723a3/click</name>
+                    <title>POST /session/:sessionId/element/971a78e9-658e-4ffc-9423-f49dbb3723a3/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670098893061' status='passed' stop='1670098893480'>
+            <name>And I enter "Google" into ".DocSearch-Input" search bar</name>
+            <title>And I enter "Google" into ".DocSearch-Input" search bar</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps>
+                <step start='1670098893064' status='passed' stop='1670098893143'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b51fa16c-85a4-4478-ad59-144365d87444-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='00f7470d-0612-487e-a28c-4f87077cc0ba-attachment.json' type='application/json' size='1027'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670098893152' status='passed' stop='1670098893268'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a628dde7-069d-4f27-ba3e-002edfa6589a-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='4e35fd86-a691-4590-b1d1-c83ba1c7a897-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670098893273' status='passed' stop='1670098893299'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='713e532c-a876-44b5-9ab8-39f02a577447-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='9252ac8f-f59c-418b-8691-42133b5e5155-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1670098893303' status='passed' stop='1670098893363'>
+                    <name>POST /session/:sessionId/element/925248ba-07b6-4278-a9e1-54c4fbe71b29/clear</name>
+                    <title>POST /session/:sessionId/element/925248ba-07b6-4278-a9e1-54c4fbe71b29/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670098893370' status='passed' stop='1670098893479'>
+                    <name>POST /session/:sessionId/element/925248ba-07b6-4278-a9e1-54c4fbe71b29/value</name>
+                    <title>POST /session/:sessionId/element/925248ba-07b6-4278-a9e1-54c4fbe71b29/value</title>
+                    <attachments>
+                        <attachment title='Request' source='785aaa6e-abf7-4a5f-8402-587e3a541e03-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670098893481' status='broken' stop='1670098893482'>
+            <name>And I choose //span[contains (text(), Google)]/mark first valid value</name>
+            <title>And I choose //span[contains (text(), Google)]/mark first valid value</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I choose //span[contains (text(), Google)]/mark first valid value" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I choose //span[contains (text(), Google)]/mark first valid value" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Пользователь\lesson22\features\login.feature):1:1
+                	at Scenario(Search component test):25:1
+                	at Step(I choose //span[contains (text(), Google)]/mark first valid value):28:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670098893483' status='passed' stop='1670098893483'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.123'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

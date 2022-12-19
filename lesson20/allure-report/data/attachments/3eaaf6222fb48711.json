@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@class = \"theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item\"]/a[contains(text(), \"click\")]"
+}

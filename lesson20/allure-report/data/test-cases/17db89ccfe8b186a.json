@@ -1,0 +1,229 @@
+{
+  "uid": "17db89ccfe8b186a",
+  "name": "Check subTitle on HomePage",
+  "fullName": "WebdriverIO tests.Check subTitle on HomePage",
+  "historyId": "968b48cccbf41c6ff43b7015e68cfb54",
+  "time": { "start": 1669495108217, "stop": 1669495109081, "duration": 864 },
+  "description": "",
+  "descriptionHtml": "",
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 4,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "POST /session/:sessionId/url",
+        "time": {
+          "start": 1669495108217,
+          "stop": 1669495108992,
+          "duration": 775
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "464cf0bcd569ec49",
+            "name": "Request",
+            "source": "464cf0bcd569ec49.json",
+            "type": "application/json",
+            "size": 36
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "POST /session/:sessionId/element",
+        "time": {
+          "start": 1669495108996,
+          "stop": 1669495109015,
+          "duration": 19
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "5e80364d3896bcec",
+            "name": "Request",
+            "source": "5e80364d3896bcec.json",
+            "type": "application/json",
+            "size": 59
+          },
+          {
+            "uid": "bed52b3e38df7d5a",
+            "name": "Response",
+            "source": "bed52b3e38df7d5a.json",
+            "type": "application/json",
+            "size": 83
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 2,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "POST /session/:sessionId/elements",
+        "time": {
+          "start": 1669495109022,
+          "stop": 1669495109040,
+          "duration": 18
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "de89d7d006f1b471",
+            "name": "Request",
+            "source": "de89d7d006f1b471.json",
+            "type": "application/json",
+            "size": 59
+          },
+          {
+            "uid": "6103acd545a8057b",
+            "name": "Response",
+            "source": "6103acd545a8057b.json",
+            "type": "application/json",
+            "size": 93
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 2,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "POST /session/:sessionId/element",
+        "time": {
+          "start": 1669495109046,
+          "stop": 1669495109056,
+          "duration": 10
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "7ff0770f5d0bf469",
+            "name": "Request",
+            "source": "7ff0770f5d0bf469.json",
+            "type": "application/json",
+            "size": 59
+          },
+          {
+            "uid": "c2af7023548fdbfa",
+            "name": "Response",
+            "source": "c2af7023548fdbfa.json",
+            "type": "application/json",
+            "size": 83
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 2,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "GET /session/:sessionId/element/375a253e-1bcd-4e4e-a8a6-0a2cfd1a9eef/text",
+        "time": {
+          "start": 1669495109058,
+          "stop": 1669495109080,
+          "duration": 22
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "95d591a8a59fca65",
+            "name": "Response",
+            "source": "95d591a8a59fca65.json",
+            "type": "application/json",
+            "size": 67
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "stepsCount": 5,
+    "hasContent": true,
+    "attachmentsCount": 8,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    { "name": "framework", "value": "wdio" },
+    { "name": "language", "value": "javascript" },
+    { "name": "thread", "value": "0-0" },
+    { "name": "suite", "value": "WebdriverIO tests" },
+    { "name": "testClass", "value": "WebdriverIO tests" },
+    { "name": "testMethod", "value": "Check subTitle on HomePage" },
+    { "name": "package", "value": "WebdriverIO tests" },
+    { "name": "resultFormat", "value": "allure1" }
+  ],
+  "parameters": [{ "name": "browser", "value": "chrome-107.0.5304.108" }],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [
+      {
+        "uid": "fb34bebb35d97400",
+        "status": "passed",
+        "time": {
+          "start": 1669494651760,
+          "stop": 1669494652583,
+          "duration": 823
+        }
+      },
+      {
+        "uid": "356d561ee2fabf53",
+        "status": "passed",
+        "time": {
+          "start": 1669494166336,
+          "stop": 1669494167123,
+          "duration": 787
+        }
+      },
+      {
+        "uid": "d91d1943baf67e4",
+        "status": "passed",
+        "time": {
+          "start": 1669492046603,
+          "stop": 1669492047389,
+          "duration": 786
+        }
+      },
+      {
+        "uid": "3c1cca5829c7e6fa",
+        "status": "passed",
+        "time": {
+          "start": 1669491918537,
+          "stop": 1669491919294,
+          "duration": 757
+        }
+      }
+    ],
+    "categories": [],
+    "tags": []
+  },
+  "source": "17db89ccfe8b186a.json",
+  "parameterValues": ["chrome-107.0.5304.108"]
+}

@@ -1,0 +1,39 @@
+{
+  "uid": "575448921d14f2b3",
+  "name": "Check Text 'Blog ' in MainTitle",
+  "fullName": "WebdriverIO tests.Check Text 'Blog ' in MainTitle",
+  "historyId": "34c6829c59853bd89e990acf6b4db603",
+  "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+  "description": "",
+  "descriptionHtml": "",
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "statusTrace": "undefined",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    { "name": "suite", "value": "WebdriverIO tests" },
+    { "name": "testClass", "value": "WebdriverIO tests" },
+    { "name": "testMethod", "value": "Check Text 'Blog ' in MainTitle" },
+    { "name": "package", "value": "WebdriverIO tests" },
+    { "name": "resultFormat", "value": "allure1" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "575448921d14f2b3.json",
+  "parameterValues": []
+}

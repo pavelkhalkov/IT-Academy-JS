@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669491714429' stop='1669491717905'>
+    <name>WebdriverIO  tests</name>
+    <title>WebdriverIO  tests</title>
+    <test-cases>
+        <test-case start='1669491714430' status='broken' stop='1669491717903'>
+            <name>Check subTitle on HomePage</name>
+            <title>Check subTitle on HomePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.108'/>
+            </parameters>
+            <steps>
+                <step start='1669491714434' status='passed' stop='1669491717588'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='42ec3b0b-43cb-459f-9f4a-a66a77c81f82-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669491717591' status='passed' stop='1669491717629'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='37cb4ba4-0c51-4f5b-ada0-7a6f376fb393-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='4c1c8fd3-b5a3-4413-873f-3075f071e5c0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669491717639' status='passed' stop='1669491717697'>
+                    <name>GET /session/:sessionId/element/f4ab9409-5d9e-4aca-8118-a97186217fad/text</name>
+                    <title>GET /session/:sessionId/element/f4ab9409-5d9e-4aca-8118-a97186217fad/text</title>
+                    <attachments>
+                        <attachment title='Response' source='f9ad4505-42d9-42a6-9c20-e8aa80e74586-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669491717701' status='passed' stop='1669491717902'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8e38be2d-62a7-4df2-a23f-492a582f1527-attachment.png' type='image/png' size='79728'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'contain')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'contain')
+                    at Context.&lt;anonymous> (C:\Users\Пользователь\lesson20\test\test.js:16:64)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

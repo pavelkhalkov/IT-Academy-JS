@@ -1,0 +1,227 @@
+{
+  "uid": "5e38f71c1505d567",
+  "name": "Check Text 'Blog ' in MainTitle",
+  "fullName": "WebdriverIO tests.Check Text 'Blog ' in MainTitle",
+  "historyId": "e38c140d87ce6c2ce1b94c4e8651f376",
+  "time": { "start": 1669491919295, "stop": 1669491920306, "duration": 1011 },
+  "description": "",
+  "descriptionHtml": "",
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "POST /session/:sessionId/url",
+        "time": {
+          "start": 1669491919296,
+          "stop": 1669491919994,
+          "duration": 698
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "fff823b62eb2beb0",
+            "name": "Request",
+            "source": "fff823b62eb2beb0.json",
+            "type": "application/json",
+            "size": 36
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "POST /session/:sessionId/element",
+        "time": {
+          "start": 1669491919995,
+          "stop": 1669491920012,
+          "duration": 17
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "2f95640757c64423",
+            "name": "Request",
+            "source": "2f95640757c64423.json",
+            "type": "application/json",
+            "size": 108
+          },
+          {
+            "uid": "b736f7eb901e120e",
+            "name": "Response",
+            "source": "b736f7eb901e120e.json",
+            "type": "application/json",
+            "size": 83
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 2,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "POST /session/:sessionId/execute/sync",
+        "time": {
+          "start": 1669491920015,
+          "stop": 1669491920027,
+          "duration": 12
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "870307c6cde14b54",
+            "name": "Request",
+            "source": "870307c6cde14b54.json",
+            "type": "application/json",
+            "size": 8338
+          },
+          {
+            "uid": "6e6bdd9acb2d5aae",
+            "name": "Response",
+            "source": "6e6bdd9acb2d5aae.json",
+            "type": "application/json",
+            "size": 4
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 2,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "POST /session/:sessionId/execute/sync",
+        "time": {
+          "start": 1669491920027,
+          "stop": 1669491920038,
+          "duration": 11
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "3a94f0a2292d4139",
+            "name": "Request",
+            "source": "3a94f0a2292d4139.json",
+            "type": "application/json",
+            "size": 5649
+          },
+          {
+            "uid": "bde5fb46f964e51f",
+            "name": "Response",
+            "source": "bde5fb46f964e51f.json",
+            "type": "application/json",
+            "size": 4
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 2,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "POST /session/:sessionId/element/137da86d-40fb-405e-afe8-640ed77dceef/click",
+        "time": {
+          "start": 1669491920039,
+          "stop": 1669491920104,
+          "duration": 65
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": false,
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "GET /session/:sessionId/title",
+        "time": {
+          "start": 1669491920105,
+          "stop": 1669491920297,
+          "duration": 192
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "8c97d59c22c096",
+            "name": "Response",
+            "source": "8c97d59c22c096.json",
+            "type": "application/json",
+            "size": 20
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "GET /session/:sessionId/url",
+        "time": {
+          "start": 1669491920297,
+          "stop": 1669491920305,
+          "duration": 8
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "c89be8594e7790eb",
+            "name": "Response",
+            "source": "c89be8594e7790eb.json",
+            "type": "application/json",
+            "size": 27
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "stepsCount": 7,
+    "hasContent": true,
+    "attachmentsCount": 9,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    { "name": "framework", "value": "wdio" },
+    { "name": "language", "value": "javascript" },
+    { "name": "thread", "value": "0-0" },
+    { "name": "suite", "value": "WebdriverIO tests" },
+    { "name": "testClass", "value": "WebdriverIO tests" },
+    { "name": "testMethod", "value": "Check Text 'Blog ' in MainTitle" },
+    { "name": "package", "value": "WebdriverIO tests" },
+    { "name": "resultFormat", "value": "allure1" }
+  ],
+  "parameters": [{ "name": "browser", "value": "chrome-107.0.5304.108" }],
+  "links": [],
+  "hidden": true,
+  "retry": true,
+  "extra": { "categories": [], "tags": [] },
+  "source": "5e38f71c1505d567.json",
+  "parameterValues": ["chrome-107.0.5304.108"]
+}

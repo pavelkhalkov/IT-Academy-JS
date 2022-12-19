@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//h2[@class=\"blogPostTitle_rzP5\"]//a[contains(text(), \"Keep\")]"
+}

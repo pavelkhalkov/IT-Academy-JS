@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains (text(), Google)]/mark\"}\n  (Session info: chrome=107.0.5304.123)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x0028ACD3+2075859]\n\tOrdinal0 [0x0021EE61+1633889]\n\tOrdinal0 [0x0011B7BD+571325]\n\tOrdinal0 [0x0014AC2F+764975]\n\tOrdinal0 [0x0014AE1B+765467]\n\tOrdinal0 [0x0017D0F2+970994]\n\tOrdinal0 [0x00167364+881508]\n\tOrdinal0 [0x0017B56A+963946]\n\tOrdinal0 [0x00167136+880950]\n\tOrdinal0 [0x0013FEFD+720637]\n\tOrdinal0 [0x00140F3F+724799]\n\tGetHandleVerifier [0x0053EED2+2769538]\n\tGetHandleVerifier [0x00530D95+2711877]\n\tGetHandleVerifier [0x0031A03A+521194]\n\tGetHandleVerifier [0x00318DA0+516432]\n\tOrdinal0 [0x0022682C+1665068]\n\tOrdinal0 [0x0022B128+1683752]\n\tOrdinal0 [0x0022B215+1683989]\n\tOrdinal0 [0x00236484+1729668]\n\tBaseThreadInitThunk [0x76DAFEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77CB7BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77CB7B8E+238]\n\t(No symbol) [0x00000000]\n"
+}

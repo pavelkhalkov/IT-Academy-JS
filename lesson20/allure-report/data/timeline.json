@@ -1,0 +1,771 @@
+{
+  "uid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name": "timeline",
+  "children": [
+    {
+      "name": "0-0",
+      "children": [
+        {
+          "name": "Check switch lighting mode (Light or Dark)",
+          "uid": "c6e92bd994452b1d",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669492052313,
+            "stop": 1669492053445,
+            "duration": 1132
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check switch lighting mode (Light or Dark)",
+          "uid": "c77517494dfcd56a",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669491860424,
+            "stop": 1669491863873,
+            "duration": 3449
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check subTitle on HomePage",
+          "uid": "fb34bebb35d97400",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669494651760,
+            "stop": 1669494652583,
+            "duration": 823
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "should login with valid credentials",
+          "uid": "c7bbda5b1f6b5866",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669490507994,
+            "stop": 1669490511480,
+            "duration": 3486
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check Text 'WebdriverIO' in MainTitle",
+          "uid": "876deb21e76a5",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669494649286,
+            "stop": 1669494651760,
+            "duration": 2474
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check Text 'Blog ' in MainTitle",
+          "uid": "e3213619155ff51b",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669492047390,
+            "stop": 1669492048795,
+            "duration": 1405
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check api-element \"click\" in API tab",
+          "uid": "6212a59bcbbb4c02",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669495112515,
+            "stop": 1669495114217,
+            "duration": 1702
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 4,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check subTitle on HomePage",
+          "uid": "89ee4331a0b777da",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "broken",
+          "time": {
+            "start": 1669491777386,
+            "stop": 1669491778460,
+            "duration": 1074
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check subTitle on HomePage",
+          "uid": "d91d1943baf67e4",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669492046603,
+            "stop": 1669492047389,
+            "duration": 786
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check searching functionality",
+          "uid": "79d9b1d2948d3a53",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669492048795,
+            "stop": 1669492050692,
+            "duration": 1897
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check searching functionality",
+          "uid": "39aff7198294d77b",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669494653663,
+            "stop": 1669494655992,
+            "duration": 2329
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check searching functionality",
+          "uid": "16968f5652fec573",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669495110104,
+            "stop": 1669495112515,
+            "duration": 2411
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 4,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "should login with valid credentials",
+          "uid": "5450869be2b887ab",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669490525684,
+            "stop": 1669490529948,
+            "duration": 4264
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check subTitle on HomePage",
+          "uid": "356d561ee2fabf53",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669494166336,
+            "stop": 1669494167123,
+            "duration": 787
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check Text 'WebdriverIO' in MainTitle",
+          "uid": "45e8477341463ef",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669494163828,
+            "stop": 1669494166335,
+            "duration": 2507
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check switch lighting mode (Light or Dark)",
+          "uid": "3e558a9f29a9d068",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669494172229,
+            "stop": 1669494173401,
+            "duration": 1172
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check Text 'WebdriverIO' in MainTitle",
+          "uid": "e4dabc8b8774a7a9",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669495105939,
+            "stop": 1669495108216,
+            "duration": 2277
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 4,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check Text 'WebdriverIO' in MainTitle",
+          "uid": "284d2af55088d878",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669492044161,
+            "stop": 1669492046603,
+            "duration": 2442
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check api-element \"click\" in API tab",
+          "uid": "8f7d1ebaf12d6310",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669494655993,
+            "stop": 1669494657682,
+            "duration": 1689
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check Text 'Blog ' in MainTitle",
+          "uid": "901c4dc28467174a",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669494167123,
+            "stop": 1669494168096,
+            "duration": 973
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check Text 'Blog ' in MainTitle",
+          "uid": "9484d54a937368a8",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669495109081,
+            "stop": 1669495110104,
+            "duration": 1023
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 4,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check api-element \"click\" in API tab",
+          "uid": "abca5255ab25994a",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669491922693,
+            "stop": 1669491924444,
+            "duration": 1751
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check Text 'Blog ' in MainTitle",
+          "uid": "5e38f71c1505d567",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669491919295,
+            "stop": 1669491920306,
+            "duration": 1011
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check switch lighting mode (Light or Dark)",
+          "uid": "54eea69adf57b438",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669491924445,
+            "stop": 1669491925564,
+            "duration": 1119
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check Text 'WebdriverIO' in MainTitle",
+          "uid": "232a02a8f4555147",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669491916174,
+            "stop": 1669491918537,
+            "duration": 2363
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check switch lighting mode (Light or Dark)",
+          "uid": "68a154c69b60d695",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669495114218,
+            "stop": 1669495115337,
+            "duration": 1119
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 5,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check subTitle on HomePage",
+          "uid": "17db89ccfe8b186a",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669495108217,
+            "stop": 1669495109081,
+            "duration": 864
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 4,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check Text 'WebdriverIO ' in MainTitle",
+          "uid": "9115b790ef8a4cd7",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "broken",
+          "time": {
+            "start": 1669491774226,
+            "stop": 1669491777385,
+            "duration": 3159
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check subTitle on HomePage",
+          "uid": "97b5f905f5a063f2",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "broken",
+          "time": {
+            "start": 1669491714430,
+            "stop": 1669491717903,
+            "duration": 3473
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check searching functionality",
+          "uid": "d1e5c890423634aa",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669494168096,
+            "stop": 1669494170511,
+            "duration": 2415
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check api-element \"click\" in API tab",
+          "uid": "f7e4af470c571b0f",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669492050692,
+            "stop": 1669492052312,
+            "duration": 1620
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check subTitle on HomePage",
+          "uid": "3c1cca5829c7e6fa",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669491918537,
+            "stop": 1669491919294,
+            "duration": 757
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check switch lighting mode (Light or Dark)",
+          "uid": "3f47bbee65c58292",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669494657682,
+            "stop": 1669494658817,
+            "duration": 1135
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check api-element \"click\" in API tab",
+          "uid": "25e3d2d0963c6e5a",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669494170511,
+            "stop": 1669494172229,
+            "duration": 1718
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check Text 'Blog ' in MainTitle",
+          "uid": "e12cc91c88e974e",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669494652583,
+            "stop": 1669494653663,
+            "duration": 1080
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        },
+        {
+          "name": "Check searching functionality",
+          "uid": "b4e9bab181862b3b",
+          "parentUid": "516fe00eea05ad99e936fa729b55eff4",
+          "status": "passed",
+          "time": {
+            "start": 1669491920306,
+            "stop": 1669491922692,
+            "duration": 2386
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": ["chrome-107.0.5304.108"],
+          "tags": []
+        }
+      ],
+      "uid": "516fe00eea05ad99e936fa729b55eff4"
+    },
+    {
+      "name": "Check subTitle on HomePage",
+      "uid": "5c625bc353fd636c",
+      "parentUid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+      "status": "skipped",
+      "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": [],
+      "tags": []
+    },
+    {
+      "name": "Check Text 'WebdriverIO' in MainTitle",
+      "uid": "438c202717f1de00",
+      "parentUid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+      "status": "skipped",
+      "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": [],
+      "tags": []
+    },
+    {
+      "name": "Check searching functionality",
+      "uid": "85ada02f10e3992f",
+      "parentUid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+      "status": "skipped",
+      "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": [],
+      "tags": []
+    },
+    {
+      "name": "Check Text 'Blog ' in MainTitle",
+      "uid": "575448921d14f2b3",
+      "parentUid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+      "status": "skipped",
+      "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": [],
+      "tags": []
+    },
+    {
+      "name": "Check api-element \"click\" in API tab",
+      "uid": "f0e07a610d8e6aea",
+      "parentUid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+      "status": "skipped",
+      "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": [],
+      "tags": []
+    }
+  ]
+}

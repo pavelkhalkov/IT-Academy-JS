@@ -1,0 +1,129 @@
+{
+  "uid": "9115b790ef8a4cd7",
+  "name": "Check Text 'WebdriverIO ' in MainTitle",
+  "fullName": "WebdriverIO  tests.Check Text 'WebdriverIO ' in MainTitle",
+  "historyId": "d68ffcb7745ee5285288e6c71b6010b5",
+  "time": { "start": 1669491774226, "stop": 1669491777385, "duration": 3159 },
+  "description": "",
+  "descriptionHtml": "",
+  "status": "broken",
+  "statusMessage": "Cannot read properties of undefined (reading 'contain')",
+  "statusTrace": "TypeError: Cannot read properties of undefined (reading 'contain')\n                    at Context.<anonymous> (C:\\Users\\Пользователь\\lesson20\\test\\test.js:9:50)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "broken",
+    "statusMessage": "Cannot read properties of undefined (reading 'contain')",
+    "statusTrace": "TypeError: Cannot read properties of undefined (reading 'contain')\n                    at Context.<anonymous> (C:\\Users\\Пользователь\\lesson20\\test\\test.js:9:50)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps": [
+      {
+        "name": "POST /session/:sessionId/url",
+        "time": {
+          "start": 1669491774229,
+          "stop": 1669491777174,
+          "duration": 2945
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "95930b140e1fcc90",
+            "name": "Request",
+            "source": "95930b140e1fcc90.json",
+            "type": "application/json",
+            "size": 36
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "GET /session/:sessionId/title",
+        "time": {
+          "start": 1669491777174,
+          "stop": 1669491777187,
+          "duration": 13
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "e1f711c76d96ce6b",
+            "name": "Response",
+            "source": "e1f711c76d96ce6b.json",
+            "type": "application/json",
+            "size": 96
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "GET /session/:sessionId/screenshot",
+        "time": {
+          "start": 1669491777191,
+          "stop": 1669491777383,
+          "duration": 192
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "1d92fe4e4cd95db7",
+            "name": "Screenshot",
+            "source": "1d92fe4e4cd95db7.png",
+            "type": "image/png",
+            "size": 80055
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "stepsCount": 3,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": true
+  },
+  "afterStages": [],
+  "labels": [
+    { "name": "framework", "value": "wdio" },
+    { "name": "language", "value": "javascript" },
+    { "name": "thread", "value": "0-0" },
+    { "name": "suite", "value": "WebdriverIO  tests" },
+    { "name": "testClass", "value": "WebdriverIO  tests" },
+    { "name": "testMethod", "value": "Check Text 'WebdriverIO ' in MainTitle" },
+    { "name": "package", "value": "WebdriverIO  tests" },
+    { "name": "resultFormat", "value": "allure1" }
+  ],
+  "parameters": [{ "name": "browser", "value": "chrome-107.0.5304.108" }],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [
+      { "name": "Test defects", "matchedStatuses": [], "flaky": false }
+    ],
+    "tags": []
+  },
+  "source": "9115b790ef8a4cd7.json",
+  "parameterValues": ["chrome-107.0.5304.108"]
+}

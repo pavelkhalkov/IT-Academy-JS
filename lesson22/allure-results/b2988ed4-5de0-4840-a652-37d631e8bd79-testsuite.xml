@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669838610476' stop='1669838611400'>
+    <name>WebdriverIO web testing: As a user, I can log into the secure area</name>
+    <title>WebdriverIO web testing: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1669838610477' status='passed' stop='1669838610477'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669838610478' status='passed' stop='1669838611364'>
+            <name>Given I navigate to the main page</name>
+            <title>Given I navigate to the main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps>
+                <step start='1669838610479' status='passed' stop='1669838611363'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0f68953b-1724-4b36-ac36-92784c0d20bd-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669838611364' status='passed' stop='1669838611398'>
+            <name>When I check subTitle on home page</name>
+            <title>When I check subTitle on home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps>
+                <step start='1669838611366' status='passed' stop='1669838611378'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='14684405-2878-4d39-b807-d7b267dc6381-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='57c19ccc-8d36-4859-b19e-3b5a88f281a3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669838611380' status='passed' stop='1669838611398'>
+                    <name>GET /session/:sessionId/element/3d996f1b-a71f-4c3d-addd-1b90b04533a6/text</name>
+                    <title>GET /session/:sessionId/element/3d996f1b-a71f-4c3d-addd-1b90b04533a6/text</title>
+                    <attachments>
+                        <attachment title='Response' source='b2649c21-99ef-498b-899d-529087a1cc33-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669838611398' status='broken' stop='1669838611399'>
+            <name>And I check subTitle on CommunityPage</name>
+            <title>And I check subTitle on CommunityPage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I check subTitle on CommunityPage" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I check subTitle on CommunityPage" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Пользователь\lesson22\features\login.feature):1:1
+                	at Scenario(As a user, I can log into the secure area):3:3
+                	at Step(I check subTitle on CommunityPage):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669838611399' status='passed' stop='1669838611400'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
