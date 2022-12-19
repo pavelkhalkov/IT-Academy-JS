@@ -1,0 +1,41 @@
+{
+  "total": 3,
+  "items": [
+    {
+      "uid": "5949267c77952e02f9b4f351dfaebad8",
+      "name": "WebdriverIO  tests",
+      "statistic": {
+        "failed": 0,
+        "broken": 2,
+        "skipped": 0,
+        "passed": 0,
+        "unknown": 0,
+        "total": 2
+      }
+    },
+    {
+      "uid": "482d2c19901f852c3f194bd86e133831",
+      "name": "WebdriverIO tests",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 5,
+        "passed": 6,
+        "unknown": 0,
+        "total": 11
+      }
+    },
+    {
+      "uid": "ff9b43c34a817b44fa9b6edf61b00141",
+      "name": "My Login application",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 1,
+        "unknown": 0,
+        "total": 1
+      }
+    }
+  ]
+}

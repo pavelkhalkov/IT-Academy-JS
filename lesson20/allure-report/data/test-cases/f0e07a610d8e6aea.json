@@ -1,0 +1,39 @@
+{
+  "uid": "f0e07a610d8e6aea",
+  "name": "Check api-element \"click\" in API tab",
+  "fullName": "WebdriverIO tests.Check api-element \"click\" in API tab",
+  "historyId": "e26eb54c82ce76b07e8bb17b82b1a64a",
+  "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+  "description": "",
+  "descriptionHtml": "",
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "statusTrace": "undefined",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    { "name": "suite", "value": "WebdriverIO tests" },
+    { "name": "testClass", "value": "WebdriverIO tests" },
+    { "name": "testMethod", "value": "Check api-element \"click\" in API tab" },
+    { "name": "package", "value": "WebdriverIO tests" },
+    { "name": "resultFormat", "value": "allure1" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "f0e07a610d8e6aea.json",
+  "parameterValues": []
+}

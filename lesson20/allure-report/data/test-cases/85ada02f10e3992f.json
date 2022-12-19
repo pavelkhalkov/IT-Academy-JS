@@ -1,0 +1,39 @@
+{
+  "uid": "85ada02f10e3992f",
+  "name": "Check searching functionality",
+  "fullName": "WebdriverIO tests.Check searching functionality",
+  "historyId": "b0a05d53c2d8a980e3d5bcf1734d49ec",
+  "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+  "description": "",
+  "descriptionHtml": "",
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "statusTrace": "undefined",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    { "name": "suite", "value": "WebdriverIO tests" },
+    { "name": "testClass", "value": "WebdriverIO tests" },
+    { "name": "testMethod", "value": "Check searching functionality" },
+    { "name": "package", "value": "WebdriverIO tests" },
+    { "name": "resultFormat", "value": "allure1" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "85ada02f10e3992f.json",
+  "parameterValues": []
+}

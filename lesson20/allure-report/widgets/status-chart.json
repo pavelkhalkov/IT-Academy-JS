@@ -1,0 +1,100 @@
+[
+  {
+    "uid": "9115b790ef8a4cd7",
+    "name": "Check Text 'WebdriverIO ' in MainTitle",
+    "time": { "start": 1669491774226, "stop": 1669491777385, "duration": 3159 },
+    "status": "broken",
+    "severity": "normal"
+  },
+  {
+    "uid": "5450869be2b887ab",
+    "name": "should login with valid credentials",
+    "time": { "start": 1669490525684, "stop": 1669490529948, "duration": 4264 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "5c625bc353fd636c",
+    "name": "Check subTitle on HomePage",
+    "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "6212a59bcbbb4c02",
+    "name": "Check api-element \"click\" in API tab",
+    "time": { "start": 1669495112515, "stop": 1669495114217, "duration": 1702 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "16968f5652fec573",
+    "name": "Check searching functionality",
+    "time": { "start": 1669495110104, "stop": 1669495112515, "duration": 2411 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "85ada02f10e3992f",
+    "name": "Check searching functionality",
+    "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "575448921d14f2b3",
+    "name": "Check Text 'Blog ' in MainTitle",
+    "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "f0e07a610d8e6aea",
+    "name": "Check api-element \"click\" in API tab",
+    "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "438c202717f1de00",
+    "name": "Check Text 'WebdriverIO' in MainTitle",
+    "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+    "status": "skipped",
+    "severity": "normal"
+  },
+  {
+    "uid": "17db89ccfe8b186a",
+    "name": "Check subTitle on HomePage",
+    "time": { "start": 1669495108217, "stop": 1669495109081, "duration": 864 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "89ee4331a0b777da",
+    "name": "Check subTitle on HomePage",
+    "time": { "start": 1669491777386, "stop": 1669491778460, "duration": 1074 },
+    "status": "broken",
+    "severity": "normal"
+  },
+  {
+    "uid": "68a154c69b60d695",
+    "name": "Check switch lighting mode (Light or Dark)",
+    "time": { "start": 1669495114218, "stop": 1669495115337, "duration": 1119 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "9484d54a937368a8",
+    "name": "Check Text 'Blog ' in MainTitle",
+    "time": { "start": 1669495109081, "stop": 1669495110104, "duration": 1023 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "e4dabc8b8774a7a9",
+    "name": "Check Text 'WebdriverIO' in MainTitle",
+    "time": { "start": 1669495105939, "stop": 1669495108216, "duration": 2277 },
+    "status": "passed",
+    "severity": "normal"
+  }
+]

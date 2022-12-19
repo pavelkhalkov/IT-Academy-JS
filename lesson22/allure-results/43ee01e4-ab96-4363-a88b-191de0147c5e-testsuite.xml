@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669831206561' stop='1669831206586'>
+    <name>WebdriverIO web testing: As a user, I can log into the secure area</name>
+    <title>WebdriverIO web testing: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1669831206562' status='passed' stop='1669831206565'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669831206566' status='broken' stop='1669831206578'>
+            <name>Given I navigate to the main page</name>
+            <title>Given I navigate to the main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps>
+                <step start='1669831206570' status='broken' stop='1669831206578'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='380d44f3-3c65-4297-a0e3-5b87320480d5-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: function uses multiple asynchronous interfaces: callback and promise</message>
+                <stack-trace>Error: function uses multiple asynchronous interfaces: callback and promise
+                to use the callback interface: do not return a promise
+                to use the promise interface: remove the last argument to the function
+                    at Object.run (C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\user_code_runner.js:35:24)
+                    at Object.run (C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:52:59)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async TestCaseRunner.invokeStep (C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:93:16)
+                    at async TestCaseRunner.runStep (C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:237:26)
+                    at async C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:163:48
+                    at async TestCaseRunner.aroundTestStep (C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:117:32)
+                    at async TestCaseRunner.run (C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:146:17)
+                    at async Runtime.runTestCase (C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\runtime\index.js:41:24)
+                    at async Runtime.start (C:\Users\Пользователь\lesson22\node_modules\@cucumber\cucumber\lib\runtime\index.js:65:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669831206580' status='pending' stop='1669831206582'>
+            <name>When I click on Watch Talks button</name>
+            <title>When I click on Watch Talks button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669831206582' status='pending' stop='1669831206584'>
+            <name>And I check subTitle on CommunityPage</name>
+            <title>And I check subTitle on CommunityPage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669831206584' status='passed' stop='1669831206585'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".theme-doc-sidebar-menu>li:nth-child(5)"
+}

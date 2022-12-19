@@ -1,0 +1,145 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669580353055' stop='1669580372287'>
+    <name>WebdriverIO tests</name>
+    <title>WebdriverIO tests</title>
+    <test-cases>
+        <test-case start='1669580353057' status='broken' stop='1669580358074'>
+            <name>Check Text 'WebdriverIO' in MainTitle</name>
+            <title>Check Text 'WebdriverIO' in MainTitle</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.108'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='963b5fa2-b2cd-4854-9233-14383c74324e-attachment.png' type='image/png' size='78406'/>
+            </attachments>
+            <failure>
+                <message>Invalid Chai property: toHaveTitleContaining</message>
+                <stack-trace>Error: Invalid Chai property: toHaveTitleContaining
+                    at Object.proxyGetter [as get] (C:\Users\Пользователь\lesson20\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at Context.&lt;anonymous> (C:\Users\Пользователь\lesson20\test\test.js:9:26)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669580358075' status='broken' stop='1669580360306'>
+            <name>Check subTitle on HomePage</name>
+            <title>Check subTitle on HomePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.108'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9de6ed9e-a4d5-4584-8f89-da1885df5d3a-attachment.png' type='image/png' size='79514'/>
+            </attachments>
+            <failure>
+                <message>Invalid Chai property: toBeExisting</message>
+                <stack-trace>Error: Invalid Chai property: toBeExisting
+                    at Object.proxyGetter [as get] (C:\Users\Пользователь\lesson20\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at Context.&lt;anonymous> (C:\Users\Пользователь\lesson20\test\test.js:15:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669580360308' status='broken' stop='1669580363071'>
+            <name>Check Text 'Blog ' in MainTitle</name>
+            <title>Check Text 'Blog ' in MainTitle</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.108'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0f6a575e-5ff7-492e-8cc4-eda9ba35ec19-attachment.png' type='image/png' size='167143'/>
+            </attachments>
+            <failure>
+                <message>Invalid Chai property: toHaveTitleContaining</message>
+                <stack-trace>Error: Invalid Chai property: toHaveTitleContaining
+                    at Object.proxyGetter [as get] (C:\Users\Пользователь\lesson20\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at Context.&lt;anonymous> (C:\Users\Пользователь\lesson20\test\test.js:24:26)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669580363071' status='broken' stop='1669580366826'>
+            <name>Check searching functionality</name>
+            <title>Check searching functionality</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.108'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6a20f8b6-ea47-4f88-a75a-bd16648f9d48-attachment.png' type='image/png' size='126847'/>
+            </attachments>
+            <failure>
+                <message>Invalid Chai property: toHaveUrlContaining</message>
+                <stack-trace>Error: Invalid Chai property: toHaveUrlContaining
+                    at Object.proxyGetter [as get] (C:\Users\Пользователь\lesson20\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at Context.&lt;anonymous> (C:\Users\Пользователь\lesson20\test\test.js:32:26)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669580366827' status='broken' stop='1669580369993'>
+            <name>Check api-element "click" in API tab</name>
+            <title>Check api-element "click" in API tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.108'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c30026b3-4dcc-49c1-9555-d0aa7de94c9b-attachment.png' type='image/png' size='122139'/>
+            </attachments>
+            <failure>
+                <message>Invalid Chai property: toHaveUrlContaining</message>
+                <stack-trace>Error: Invalid Chai property: toHaveUrlContaining
+                    at Object.proxyGetter [as get] (C:\Users\Пользователь\lesson20\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at Context.&lt;anonymous> (C:\Users\Пользователь\lesson20\test\test.js:43:26)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669580369994' status='broken' stop='1669580372284'>
+            <name>Check switch lighting mode (Light or Dark)</name>
+            <title>Check switch lighting mode (Light or Dark)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.108'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='abcfa883-90c5-4aa0-b59e-0a7e956ae189-attachment.png' type='image/png' size='115656'/>
+            </attachments>
+            <failure>
+                <message>Invalid Chai property: toHaveAttr</message>
+                <stack-trace>Error: Invalid Chai property: toHaveAttr
+                    at Object.proxyGetter [as get] (C:\Users\Пользователь\lesson20\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at Context.&lt;anonymous> (C:\Users\Пользователь\lesson20\test\test.js:53:51)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

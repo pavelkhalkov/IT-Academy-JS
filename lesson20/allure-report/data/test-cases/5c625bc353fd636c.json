@@ -1,0 +1,39 @@
+{
+  "uid": "5c625bc353fd636c",
+  "name": "Check subTitle on HomePage",
+  "fullName": "WebdriverIO tests.Check subTitle on HomePage",
+  "historyId": "9607e85a20aa11066beb740bc69903ca",
+  "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+  "description": "",
+  "descriptionHtml": "",
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "statusTrace": "undefined",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    { "name": "suite", "value": "WebdriverIO tests" },
+    { "name": "testClass", "value": "WebdriverIO tests" },
+    { "name": "testMethod", "value": "Check subTitle on HomePage" },
+    { "name": "package", "value": "WebdriverIO tests" },
+    { "name": "resultFormat", "value": "allure1" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "5c625bc353fd636c.json",
+  "parameterValues": []
+}

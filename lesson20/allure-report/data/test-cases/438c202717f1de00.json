@@ -1,0 +1,39 @@
+{
+  "uid": "438c202717f1de00",
+  "name": "Check Text 'WebdriverIO' in MainTitle",
+  "fullName": "WebdriverIO tests.Check Text 'WebdriverIO' in MainTitle",
+  "historyId": "2779ea17e3cdc5844ded48617f82aa5a",
+  "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 },
+  "description": "",
+  "descriptionHtml": "",
+  "status": "skipped",
+  "statusMessage": "Test ignored",
+  "statusTrace": "undefined",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    { "name": "suite", "value": "WebdriverIO tests" },
+    { "name": "testClass", "value": "WebdriverIO tests" },
+    { "name": "testMethod", "value": "Check Text 'WebdriverIO' in MainTitle" },
+    { "name": "package", "value": "WebdriverIO tests" },
+    { "name": "resultFormat", "value": "allure1" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "438c202717f1de00.json",
+  "parameterValues": []
+}

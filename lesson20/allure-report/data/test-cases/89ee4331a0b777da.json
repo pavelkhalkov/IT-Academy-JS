@@ -1,0 +1,171 @@
+{
+  "uid": "89ee4331a0b777da",
+  "name": "Check subTitle on HomePage",
+  "fullName": "WebdriverIO  tests.Check subTitle on HomePage",
+  "historyId": "8758bd32b0c0496aad87a448d884726e",
+  "time": { "start": 1669491777386, "stop": 1669491778460, "duration": 1074 },
+  "description": "",
+  "descriptionHtml": "",
+  "status": "broken",
+  "statusMessage": "Cannot read properties of undefined (reading 'contain')",
+  "statusTrace": "TypeError: Cannot read properties of undefined (reading 'contain')\n                    at Context.<anonymous> (C:\\Users\\Пользователь\\lesson20\\test\\test.js:16:64)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 1,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "broken",
+    "statusMessage": "Cannot read properties of undefined (reading 'contain')",
+    "statusTrace": "TypeError: Cannot read properties of undefined (reading 'contain')\n                    at Context.<anonymous> (C:\\Users\\Пользователь\\lesson20\\test\\test.js:16:64)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps": [
+      {
+        "name": "POST /session/:sessionId/url",
+        "time": {
+          "start": 1669491777388,
+          "stop": 1669491778233,
+          "duration": 845
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "306a561a8bf34f12",
+            "name": "Request",
+            "source": "306a561a8bf34f12.json",
+            "type": "application/json",
+            "size": 36
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "POST /session/:sessionId/element",
+        "time": {
+          "start": 1669491778236,
+          "stop": 1669491778255,
+          "duration": 19
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "750ec1569005ea73",
+            "name": "Request",
+            "source": "750ec1569005ea73.json",
+            "type": "application/json",
+            "size": 59
+          },
+          {
+            "uid": "647318d48882fc7e",
+            "name": "Response",
+            "source": "647318d48882fc7e.json",
+            "type": "application/json",
+            "size": 83
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 2,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "GET /session/:sessionId/element/b56853c5-07cb-4304-8a33-715a81aacc37/text",
+        "time": {
+          "start": 1669491778263,
+          "stop": 1669491778283,
+          "duration": 20
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "d4cba2be5e1bca7d",
+            "name": "Response",
+            "source": "d4cba2be5e1bca7d.json",
+            "type": "application/json",
+            "size": 67
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false
+      },
+      {
+        "name": "GET /session/:sessionId/screenshot",
+        "time": {
+          "start": 1669491778284,
+          "stop": 1669491778459,
+          "duration": 175
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "a5a539c2528478ac",
+            "name": "Screenshot",
+            "source": "a5a539c2528478ac.png",
+            "type": "image/png",
+            "size": 79370
+          }
+        ],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "stepsCount": 4,
+    "hasContent": true,
+    "attachmentsCount": 5,
+    "shouldDisplayMessage": true
+  },
+  "afterStages": [],
+  "labels": [
+    { "name": "framework", "value": "wdio" },
+    { "name": "language", "value": "javascript" },
+    { "name": "thread", "value": "0-0" },
+    { "name": "suite", "value": "WebdriverIO  tests" },
+    { "name": "testClass", "value": "WebdriverIO  tests" },
+    { "name": "testMethod", "value": "Check subTitle on HomePage" },
+    { "name": "package", "value": "WebdriverIO  tests" },
+    { "name": "resultFormat", "value": "allure1" }
+  ],
+  "parameters": [{ "name": "browser", "value": "chrome-107.0.5304.108" }],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [
+      {
+        "uid": "97b5f905f5a063f2",
+        "status": "broken",
+        "statusDetails": "Cannot read properties of undefined (reading 'contain')",
+        "time": {
+          "start": 1669491714430,
+          "stop": 1669491717903,
+          "duration": 3473
+        }
+      }
+    ],
+    "categories": [
+      { "name": "Test defects", "matchedStatuses": [], "flaky": false }
+    ],
+    "tags": []
+  },
+  "source": "89ee4331a0b777da.json",
+  "parameterValues": ["chrome-107.0.5304.108"]
+}

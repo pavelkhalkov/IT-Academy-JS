@@ -1,0 +1,283 @@
+{
+  "2779ea17e3cdc5844ded48617f82aa5a": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 1,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "438c202717f1de00",
+        "status": "skipped",
+        "statusDetails": "Test ignored",
+        "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 }
+      }
+    ]
+  },
+  "4ba9a733318682ba1005022474b56e2": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "68a154c69b60d695",
+        "status": "passed",
+        "time": {
+          "start": 1669495114218,
+          "stop": 1669495115337,
+          "duration": 1119
+        }
+      }
+    ]
+  },
+  "ecd141589d597475e408c85d3ebe1704": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "6212a59bcbbb4c02",
+        "status": "passed",
+        "time": {
+          "start": 1669495112515,
+          "stop": 1669495114217,
+          "duration": 1702
+        }
+      }
+    ]
+  },
+  "b0a05d53c2d8a980e3d5bcf1734d49ec": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 1,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "85ada02f10e3992f",
+        "status": "skipped",
+        "statusDetails": "Test ignored",
+        "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 }
+      }
+    ]
+  },
+  "78af0fe9e670e36deea3bbd81f89853d": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "e4dabc8b8774a7a9",
+        "status": "passed",
+        "time": {
+          "start": 1669495105939,
+          "stop": 1669495108216,
+          "duration": 2277
+        }
+      }
+    ]
+  },
+  "c488d3921cd4aed55e1326e79000194c": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "5450869be2b887ab",
+        "status": "passed",
+        "time": {
+          "start": 1669490525684,
+          "stop": 1669490529948,
+          "duration": 4264
+        }
+      }
+    ]
+  },
+  "968b48cccbf41c6ff43b7015e68cfb54": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "17db89ccfe8b186a",
+        "status": "passed",
+        "time": {
+          "start": 1669495108217,
+          "stop": 1669495109081,
+          "duration": 864
+        }
+      }
+    ]
+  },
+  "fa8d0702b0d09bc293f7498cf6bf9d3": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "16968f5652fec573",
+        "status": "passed",
+        "time": {
+          "start": 1669495110104,
+          "stop": 1669495112515,
+          "duration": 2411
+        }
+      }
+    ]
+  },
+  "8758bd32b0c0496aad87a448d884726e": {
+    "statistic": {
+      "failed": 0,
+      "broken": 1,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "89ee4331a0b777da",
+        "status": "broken",
+        "statusDetails": "Cannot read properties of undefined (reading 'contain')",
+        "time": {
+          "start": 1669491777386,
+          "stop": 1669491778460,
+          "duration": 1074
+        }
+      }
+    ]
+  },
+  "d68ffcb7745ee5285288e6c71b6010b5": {
+    "statistic": {
+      "failed": 0,
+      "broken": 1,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "9115b790ef8a4cd7",
+        "status": "broken",
+        "statusDetails": "Cannot read properties of undefined (reading 'contain')",
+        "time": {
+          "start": 1669491774226,
+          "stop": 1669491777385,
+          "duration": 3159
+        }
+      }
+    ]
+  },
+  "9607e85a20aa11066beb740bc69903ca": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 1,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "5c625bc353fd636c",
+        "status": "skipped",
+        "statusDetails": "Test ignored",
+        "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 }
+      }
+    ]
+  },
+  "34c6829c59853bd89e990acf6b4db603": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 1,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "575448921d14f2b3",
+        "status": "skipped",
+        "statusDetails": "Test ignored",
+        "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 }
+      }
+    ]
+  },
+  "e26eb54c82ce76b07e8bb17b82b1a64a": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 1,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "f0e07a610d8e6aea",
+        "status": "skipped",
+        "statusDetails": "Test ignored",
+        "time": { "start": 1669491860424, "stop": 1669491860424, "duration": 0 }
+      }
+    ]
+  },
+  "e38c140d87ce6c2ce1b94c4e8651f376": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "9484d54a937368a8",
+        "status": "passed",
+        "time": {
+          "start": 1669495109081,
+          "stop": 1669495110104,
+          "duration": 1023
+        }
+      }
+    ]
+  }
+}
