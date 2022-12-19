@@ -1,0 +1,26 @@
+{
+  "name": "lesson24",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "lint": "eslint --debug ./ --fix",
+    "lint:write": "eslint ./ --fix && npm pretty",
+    "pretty": "prettier --write */**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.28.1",
+    "prettier": "^2.8.1",
+    "pretty": "^2.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.28.1",
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
